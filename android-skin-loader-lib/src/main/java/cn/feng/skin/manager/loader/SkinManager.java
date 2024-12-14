@@ -200,7 +200,7 @@ public class SkinManager implements ISkinLoader{
 		if(skinObservers == null){
 			skinObservers = new ArrayList<ISkinUpdate>();
 		}
-		if(!skinObservers.contains(skinObservers)){
+		if(!skinObservers.contains(observer)){
 			skinObservers.add(observer);
 		}
 	}
